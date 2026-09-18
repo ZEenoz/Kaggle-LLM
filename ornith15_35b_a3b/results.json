@@ -1,0 +1,275 @@
+{
+  "meta": {
+    "model_repo": "gbuzhf/Ornith-1.5-35B-A3B-TIEL-Calibrated-MTPv2-ICE-GGUF",
+    "model_file": "Ornith-1.5-35B-A3B-TIEL_Calibrated-MTPv2-21G-ICE.gguf",
+    "context_sizes": [
+      102400,
+      114688,
+      131072,
+      147456,
+      163840
+    ],
+    "ngl": 99,
+    "kv_cache": "q4_0",
+    "batch": 1024,
+    "ubatch": 512,
+    "enable_mtp": true,
+    "started_at": "2026-09-18T03:08:55"
+  },
+  "context_sweep": [
+    {
+      "phase": "context_sweep",
+      "context": 102400,
+      "ngl": 99,
+      "kv_cache": "q4_0",
+      "batch": 1024,
+      "ubatch": 512,
+      "enable_mtp": true,
+      "fit": true,
+      "error": "",
+      "idle_vram_mb": 22494,
+      "peak_vram_mb": 22564,
+      "peak_vram_gb": 22.04,
+      "vram_per_gpu_mb": [
+        10905,
+        11659
+      ],
+      "idle_ram_gb": 3.11,
+      "peak_ram_gb": 3.87,
+      "short_request": {
+        "ok": true,
+        "prompt_tokens": 189,
+        "completion_tokens": 128,
+        "ttft_s": null,
+        "elapsed_s": 2.7624897956848145,
+        "prompt_tps": null,
+        "gen_tps": null,
+        "error": ""
+      },
+      "long_request": {
+        "ok": true,
+        "prompt_tokens": 14561,
+        "completion_tokens": 68,
+        "ttft_s": 14.635692834854126,
+        "elapsed_s": 14.77213454246521,
+        "prompt_tps": 994.8965289380596,
+        "gen_tps": 498.3813321497594,
+        "error": ""
+      }
+    },
+    {
+      "phase": "context_sweep",
+      "context": 114688,
+      "ngl": 99,
+      "kv_cache": "q4_0",
+      "batch": 1024,
+      "ubatch": 512,
+      "enable_mtp": true,
+      "fit": true,
+      "error": "",
+      "idle_vram_mb": 22782,
+      "peak_vram_mb": 22848,
+      "peak_vram_gb": 22.31,
+      "vram_per_gpu_mb": [
+        11011,
+        11837
+      ],
+      "idle_ram_gb": 3.21,
+      "peak_ram_gb": 4.02,
+      "short_request": {
+        "ok": true,
+        "prompt_tokens": 189,
+        "completion_tokens": 128,
+        "ttft_s": null,
+        "elapsed_s": 2.7695374488830566,
+        "prompt_tps": null,
+        "gen_tps": null,
+        "error": ""
+      },
+      "long_request": {
+        "ok": true,
+        "prompt_tokens": 16285,
+        "completion_tokens": 61,
+        "ttft_s": 17.292036771774292,
+        "elapsed_s": 17.390400409698486,
+        "prompt_tps": 941.7629753472377,
+        "gen_tps": 620.1478644680743,
+        "error": ""
+      }
+    },
+    {
+      "phase": "context_sweep",
+      "context": 131072,
+      "ngl": 99,
+      "kv_cache": "q4_0",
+      "batch": 1024,
+      "ubatch": 512,
+      "enable_mtp": true,
+      "fit": true,
+      "error": "",
+      "idle_vram_mb": 23158,
+      "peak_vram_mb": 23224,
+      "peak_vram_gb": 22.68,
+      "vram_per_gpu_mb": [
+        11151,
+        12073
+      ],
+      "idle_ram_gb": 3.44,
+      "peak_ram_gb": 4.21,
+      "short_request": {
+        "ok": true,
+        "prompt_tokens": 189,
+        "completion_tokens": 128,
+        "ttft_s": null,
+        "elapsed_s": 2.7922821044921875,
+        "prompt_tps": null,
+        "gen_tps": null,
+        "error": ""
+      },
+      "long_request": {
+        "ok": true,
+        "prompt_tokens": 18584,
+        "completion_tokens": 68,
+        "ttft_s": 19.52772617340088,
+        "elapsed_s": 19.669048070907593,
+        "prompt_tps": 951.672500678223,
+        "gen_tps": 481.171008878999,
+        "error": ""
+      }
+    },
+    {
+      "phase": "context_sweep",
+      "context": 147456,
+      "ngl": 99,
+      "kv_cache": "q4_0",
+      "batch": 1024,
+      "ubatch": 512,
+      "enable_mtp": true,
+      "fit": true,
+      "error": "",
+      "idle_vram_mb": 23538,
+      "peak_vram_mb": 23604,
+      "peak_vram_gb": 23.05,
+      "vram_per_gpu_mb": [
+        11293,
+        12311
+      ],
+      "idle_ram_gb": 3.59,
+      "peak_ram_gb": 4.41,
+      "short_request": {
+        "ok": true,
+        "prompt_tokens": 189,
+        "completion_tokens": 128,
+        "ttft_s": null,
+        "elapsed_s": 2.7875044345855713,
+        "prompt_tps": null,
+        "gen_tps": null,
+        "error": ""
+      },
+      "long_request": {
+        "ok": true,
+        "prompt_tokens": 18584,
+        "completion_tokens": 68,
+        "ttft_s": 19.68093466758728,
+        "elapsed_s": 19.821407318115234,
+        "prompt_tps": 944.2640968981096,
+        "gen_tps": 484.0799952476726,
+        "error": ""
+      }
+    },
+    {
+      "phase": "context_sweep",
+      "context": 163840,
+      "ngl": 99,
+      "kv_cache": "q4_0",
+      "batch": 1024,
+      "ubatch": 512,
+      "enable_mtp": true,
+      "fit": true,
+      "error": "",
+      "idle_vram_mb": 23914,
+      "peak_vram_mb": 23980,
+      "peak_vram_gb": 23.42,
+      "vram_per_gpu_mb": [
+        11433,
+        12547
+      ],
+      "idle_ram_gb": 3.69,
+      "peak_ram_gb": 4.5,
+      "short_request": {
+        "ok": true,
+        "prompt_tokens": 189,
+        "completion_tokens": 128,
+        "ttft_s": null,
+        "elapsed_s": 2.754516124725342,
+        "prompt_tps": null,
+        "gen_tps": null,
+        "error": ""
+      },
+      "long_request": {
+        "ok": true,
+        "prompt_tokens": 18584,
+        "completion_tokens": 68,
+        "ttft_s": 20.395692586898804,
+        "elapsed_s": 20.54408884048462,
+        "prompt_tps": 911.172784195495,
+        "gen_tps": 458.232592514046,
+        "error": ""
+      }
+    }
+  ],
+  "sweet_spot": {
+    "recommended": {
+      "context": 114688,
+      "ngl": 99,
+      "kv_cache": "q4_0",
+      "batch_size": 1024,
+      "ubatch_size": 512,
+      "enable_mtp": true,
+      "short_gen_tps": null,
+      "long_prefill_tps": 941.7629753472377,
+      "long_ttft_s": 17.292036771774292,
+      "long_gen_tps": 620.1478644680743,
+      "peak_vram_gb": 22.31,
+      "score": 1418.33
+    },
+    "reason": "Context 114,688 tokens achieves peak VRAM 22.31 GB with generation speed 620.15 tok/s (MTP accelerated) and long prefill 941.76 tok/s safely within Kaggle 2x T4 limits.",
+    "all_ranked": [
+      {
+        "context": 114688,
+        "peak_vram_gb": 22.31,
+        "short_tps": null,
+        "long_tps": 620.1478644680743,
+        "score": 1418.33
+      },
+      {
+        "context": 147456,
+        "peak_vram_gb": 23.05,
+        "short_tps": null,
+        "long_tps": 484.0799952476726,
+        "score": 1195.34
+      },
+      {
+        "context": 163840,
+        "peak_vram_gb": 23.42,
+        "short_tps": null,
+        "long_tps": 458.232592514046,
+        "score": 1168.23
+      },
+      {
+        "context": 131072,
+        "peak_vram_gb": 22.68,
+        "short_tps": null,
+        "long_tps": 481.171008878999,
+        "score": 1164.95
+      },
+      {
+        "context": 102400,
+        "peak_vram_gb": 22.04,
+        "short_tps": null,
+        "long_tps": 498.3813321497594,
+        "score": 1156.36
+      }
+    ]
+  }
+}

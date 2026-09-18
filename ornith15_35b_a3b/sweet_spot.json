@@ -1,0 +1,54 @@
+{
+  "recommended": {
+    "context": 114688,
+    "ngl": 99,
+    "kv_cache": "q4_0",
+    "batch_size": 1024,
+    "ubatch_size": 512,
+    "enable_mtp": true,
+    "short_gen_tps": null,
+    "long_prefill_tps": 941.7629753472377,
+    "long_ttft_s": 17.292036771774292,
+    "long_gen_tps": 620.1478644680743,
+    "peak_vram_gb": 22.31,
+    "score": 1418.33
+  },
+  "reason": "Context 114,688 tokens achieves peak VRAM 22.31 GB with generation speed 620.15 tok/s (MTP accelerated) and long prefill 941.76 tok/s safely within Kaggle 2x T4 limits.",
+  "all_ranked": [
+    {
+      "context": 114688,
+      "peak_vram_gb": 22.31,
+      "short_tps": null,
+      "long_tps": 620.1478644680743,
+      "score": 1418.33
+    },
+    {
+      "context": 147456,
+      "peak_vram_gb": 23.05,
+      "short_tps": null,
+      "long_tps": 484.0799952476726,
+      "score": 1195.34
+    },
+    {
+      "context": 163840,
+      "peak_vram_gb": 23.42,
+      "short_tps": null,
+      "long_tps": 458.232592514046,
+      "score": 1168.23
+    },
+    {
+      "context": 131072,
+      "peak_vram_gb": 22.68,
+      "short_tps": null,
+      "long_tps": 481.171008878999,
+      "score": 1164.95
+    },
+    {
+      "context": 102400,
+      "peak_vram_gb": 22.04,
+      "short_tps": null,
+      "long_tps": 498.3813321497594,
+      "score": 1156.36
+    }
+  ]
+}

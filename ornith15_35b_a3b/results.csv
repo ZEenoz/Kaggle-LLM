@@ -1,0 +1,6 @@
+context,fit,peak_vram_gb,peak_ram_gb,short_gen_tps,long_prompt_tps,long_ttft_s,long_gen_tps,error
+102400,True,22.04,3.87,n/a,994.90,14.64,498.38,
+114688,True,22.31,4.02,n/a,941.76,17.29,620.15,
+131072,True,22.68,4.21,n/a,951.67,19.53,481.17,
+147456,True,23.05,4.41,n/a,944.26,19.68,484.08,
+163840,True,23.42,4.5,n/a,911.17,20.40,458.23,

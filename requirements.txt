@@ -1,0 +1,2 @@
+kaggle>=1.6.0
+truststore>=0.8.0

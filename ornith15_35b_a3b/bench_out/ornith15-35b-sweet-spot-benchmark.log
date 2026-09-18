@@ -1,0 +1,46 @@
+[{"stream_name":"stdout","time":1.1007655729999999,"data":"[03:06:37] Provisioning model weights and llama.cpp CUDA binaries...\n"}
+,{"stream_name":"stdout","time":1.1012120539999999,"data":"[03:06:37] Downloading gbuzhf/Ornith-1.5-35B-A3B-TIEL-Calibrated-MTPv2-ICE-GGUF/Ornith-1.5-35B-A3B-TIEL_Calibrated-MTPv2-21G-ICE.gguf (~20.8 GB)...\n"}
+,{"stream_name":"stdout","time":1.645279427,"data":"[03:06:38] Downloading via huggingface_hub (gbuzhf/Ornith-1.5-35B-A3B-TIEL-Calibrated-MTPv2-ICE-GGUF/Ornith-1.5-35B-A3B-TIEL_Calibrated-MTPv2-21G-ICE.gguf)...\n"}
+,{"stream_name":"stderr","time":2.172903106,"data":"Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
+,{"stream_name":"stdout","time":105.677508599,"data":"[03:08:22] Downloading prebuilt llama.cpp (sm_75 CUDA)...\n"}
+,{"stream_name":"stdout","time":139.112826171,"data":"[03:08:55] llama.cpp ready: /kaggle/tmp/ornith15_bench/bin\n"}
+,{"stream_name":"stdout","time":139.113078137,"data":"[03:08:55] ======================================================================\n"}
+,{"stream_name":"stdout","time":139.113091618,"data":"[03:08:55] Starting Ornith-1.5-35B-A3B Context Sweet-Spot Sweep (100k-160k+)\n"}
+,{"stream_name":"stdout","time":139.113097486,"data":"[03:08:55] Config: KV=q4_0, Batch=1024, UBatch=512, NGL=99, MTP=True\n"}
+,{"stream_name":"stdout","time":139.113103267,"data":"[03:08:55] ======================================================================\n"}
+,{"stream_name":"stdout","time":139.678649,"data":"[03:08:56]   ⚡ MTP self-speculative decoding enabled (--spec-type draft-mtp)\n"}
+,{"stream_name":"stdout","time":139.678694928,"data":"[03:08:56] Starting llama-server: ctx=102,400, ngl=99, batch=1024/512, kv=q4_0, mtp=True ...\n"}
+,{"stream_name":"stdout","time":237.786072165,"data":"[03:10:34]   🟢 ctx=102,400: Server live. Idle VRAM: 21.97 GB (GPU 0: 0 MB, GPU 1: 0 MB)\n"}
+,{"stream_name":"stdout","time":242.652390561,"data":"[03:10:39]   ⏳ ctx=102,400: Running long prompt probe (~25,600 tokens)...\n"}
+,{"stream_name":"stdout","time":258.020687452,"data":"[03:10:54]   📊 ctx=102,400 | Fit=True | Short Gen: n/a tok/s | Long Prefill: 994.90 tok/s | Long TTFT: 14.64 s | Long Gen: 498.38 tok/s | Peak VRAM: 22.04 GB\n"}
+,{"stream_name":"stdout","time":259.171638917,"data":"[03:10:56]   ⚡ MTP self-speculative decoding enabled (--spec-type draft-mtp)\n"}
+,{"stream_name":"stdout","time":259.17167772,"data":"[03:10:56] Starting llama-server: ctx=114,688, ngl=99, batch=1024/512, kv=q4_0, mtp=True ...\n"}
+,{"stream_name":"stdout","time":269.560386305,"data":"[03:11:06]   🟢 ctx=114,688: Server live. Idle VRAM: 22.25 GB (GPU 0: 10987 MB, GPU 1: 11795 MB)\n"}
+,{"stream_name":"stdout","time":274.294928178,"data":"[03:11:11]   ⏳ ctx=114,688: Running long prompt probe (~28,672 tokens)...\n"}
+,{"stream_name":"stdout","time":292.49362986,"data":"[03:11:29]   📊 ctx=114,688 | Fit=True | Short Gen: n/a tok/s | Long Prefill: 941.76 tok/s | Long TTFT: 17.29 s | Long Gen: 620.15 tok/s | Peak VRAM: 22.31 GB\n"}
+,{"stream_name":"stdout","time":292.80306623,"data":"[03:11:29]   ⚡ MTP self-speculative decoding enabled (--spec-type draft-mtp)\n"}
+,{"stream_name":"stdout","time":292.803095548,"data":"[03:11:29] Starting llama-server: ctx=131,072, ngl=99, batch=1024/512, kv=q4_0, mtp=True ...\n"}
+,{"stream_name":"stdout","time":303.265390169,"data":"[03:11:40]   🟢 ctx=131,072: Server live. Idle VRAM: 22.62 GB (GPU 0: 0 MB, GPU 1: 0 MB)\n"}
+,{"stream_name":"stdout","time":307.999090792,"data":"[03:11:44]   ⏳ ctx=131,072: Running long prompt probe (~32,768 tokens)...\n"}
+,{"stream_name":"stdout","time":328.361277826,"data":"[03:12:05]   📊 ctx=131,072 | Fit=True | Short Gen: n/a tok/s | Long Prefill: 951.67 tok/s | Long TTFT: 19.53 s | Long Gen: 481.17 tok/s | Peak VRAM: 22.68 GB\n"}
+,{"stream_name":"stdout","time":328.670718623,"data":"[03:12:05]   ⚡ MTP self-speculative decoding enabled (--spec-type draft-mtp)\n"}
+,{"stream_name":"stdout","time":328.67076091,"data":"[03:12:05] Starting llama-server: ctx=147,456, ngl=99, batch=1024/512, kv=q4_0, mtp=True ...\n"}
+,{"stream_name":"stdout","time":339.264640574,"data":"[03:12:16]   🟢 ctx=147,456: Server live. Idle VRAM: 22.99 GB (GPU 0: 11269 MB, GPU 1: 12269 MB)\n"}
+,{"stream_name":"stdout","time":344.000674841,"data":"[03:12:20]   ⏳ ctx=147,456: Running long prompt probe (~32,768 tokens)...\n"}
+,{"stream_name":"stdout","time":364.413719307,"data":"[03:12:41]   📊 ctx=147,456 | Fit=True | Short Gen: n/a tok/s | Long Prefill: 944.26 tok/s | Long TTFT: 19.68 s | Long Gen: 484.08 tok/s | Peak VRAM: 23.05 GB\n"}
+,{"stream_name":"stdout","time":364.718572406,"data":"[03:12:41]   ⚡ MTP self-speculative decoding enabled (--spec-type draft-mtp)\n"}
+,{"stream_name":"stdout","time":364.718633882,"data":"[03:12:41] Starting llama-server: ctx=163,840, ngl=99, batch=1024/512, kv=q4_0, mtp=True ...\n"}
+,{"stream_name":"stdout","time":374.954267181,"data":"[03:12:51]   🟢 ctx=163,840: Server live. Idle VRAM: 23.35 GB (GPU 0: 0 MB, GPU 1: 0 MB)\n"}
+,{"stream_name":"stdout","time":379.653878299,"data":"[03:12:56]   ⏳ ctx=163,840: Running long prompt probe (~32,768 tokens)...\n"}
+,{"stream_name":"stdout","time":401.250637038,"data":"[03:13:18]   📊 ctx=163,840 | Fit=True | Short Gen: n/a tok/s | Long Prefill: 911.17 tok/s | Long TTFT: 20.40 s | Long Gen: 458.23 tok/s | Peak VRAM: 23.42 GB\n"}
+,{"stream_name":"stdout","time":401.257437354,"data":"[03:13:18] All benchmark reports successfully generated in /kaggle/working\n"}
+,{"stream_name":"stdout","time":401.257467562,"data":"[03:13:18] ======================================================================\n"}
+,{"stream_name":"stdout","time":401.257658424,"data":"[03:13:18] 🏆 SWEET SPOT IDENTIFIED -\u003e Context=114,688 tokens | VRAM=22.31 GB | Long Gen=620.15 tok/s (MTP) | Prefill=941.76 tok/s\n"}
+,{"stream_name":"stdout","time":401.257676577,"data":"[03:13:18] ======================================================================\n"}
+,{"stream_name":"stderr","time":403.951029053,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":403.951077616,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":404.316159916,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":404.316201844,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":406.01585901,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":407.410343042,"data":"[NbConvertApp] Writing 455780 bytes to __results__.html\n"}
+]
